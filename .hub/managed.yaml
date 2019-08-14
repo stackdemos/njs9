@@ -1,0 +1,50 @@
+parameters:
+  - name: application.description
+    value: NodeJS microservice with Express
+  - name: application.ingress
+    value: njs9.app.pro-lets-hr-01.sol-1.superhub.io
+  - name: application.name
+    value: njs9
+  - name: application.namespace
+    value: applications
+  - name: application.path
+    value: /
+  - name: application.replicas
+    value: '1'
+  - name: component.dex.okta.appId
+    value: 0oa4pj4tm8djXuGDL2p7
+  - name: component.dex.okta.clientId
+    value: 0oa4pj4tm8djXuGDL2p7
+  - name: component.dex.okta.issuer
+    value: 'https://agilestacks.okta.com'
+  - name: component.docker.auth.basic.username
+    value: admin
+  - name: component.docker.auth.host
+    value: s3-lets-hr-01-harbor.app.pro-lets-hr-01.sol-1.superhub.io
+  - name: component.docker.registry.image
+    value: s3-lets-hr-01-harbor.app.pro-lets-hr-01.sol-1.superhub.io/library/njs9
+  - name: component.docker.registry.kind
+    value: harbor
+  - name: component.docker.registry.url
+    value: s3-lets-hr-01-harbor.app.pro-lets-hr-01.sol-1.superhub.io/library
+  - name: component.github.repository.name
+    value: njs9
+  - name: component.github.repository.organization
+    value: stackdemos
+outputs:
+  - name: application.description
+  - name: application.ingress
+  - name: application.name
+  - name: application.namespace
+  - name: application.path
+  - name: application.replicas
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.issuer
+  - name: component.docker.auth.basic.username
+  - name: component.docker.auth.host
+  - name: component.docker.registry.image
+  - name: component.docker.registry.kind
+  - name: component.docker.registry.url
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
